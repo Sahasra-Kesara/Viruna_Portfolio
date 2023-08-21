@@ -1,0 +1,423 @@
+body{
+    background-color: rgb(255, 255, 255);
+    background-size: 300px 200px;
+}
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.navbar {
+    top: 0;
+    position: fixed;
+    background-color: #333;
+    width: 100%;
+    text-shadow: #ccc;
+}
+  
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.nav-list li {
+    margin: 20px 60px;
+}
+  
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+  
+.nav-list li a:hover {
+    color: #ff9900;
+}
+
+.dropdown {
+    position: relative;
+}
+  
+.dropdown-content {
+    padding: 10px;
+    display: none;
+    position: absolute;
+    background-color: #322f35;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.image-container {
+    text-align: right;
+    margin-top: 0;
+    margin-right: 180px;
+    justify-content: center;
+}
+  
+img {
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 30px;
+    width: 300px;
+    height: auto; /* Maintain aspect ratio */
+    border: 5px solid #ccc;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.detail-box {
+    margin-top: 100px;
+    margin-left: 210px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 30px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    height: auto;
+}
+
+.detail-box h1{
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.detail-box p{
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Introduction{
+    position: inherit;
+    background-color: #dfd4f7;
+    background-size: 300px 200px;
+}
+
+.Introduction h2{
+    padding-top: 70px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.Introduction h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.about-container{
+    position: static;
+    margin-inline-start: 20px;
+    margin-top: 10px;
+    margin-left: 230px;
+    background-color: #ffffff;
+    border: 10px solid #ccc;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    height: auto; 
+}
+
+.about-box p{
+    text-decoration: solid;
+}
+
+.social-media{
+    margin-left: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    border: none;
+    
+}
+.social-media img{
+    margin-left: 10px;
+    margin-top: 0px;
+    height: 30px;
+    width: auto;
+    list-style: none;
+    box-shadow: none;
+    border: none;
+}
+
+.contact-card {
+    text-align: center;
+    padding-bottom: 5px;
+}
+  
+.contact-info {
+    color: #000000;
+    position: static;
+    margin: 5px 0;
+    padding-bottom: 5px;
+}
+.Intro-image img{
+    width: 150px;
+    height: auto;
+    justify-items: center;
+    margin-left: 600px;
+    box-shadow: none;
+    border: none;
+}
+
+.Education{
+    background-color: #c4bbf7;
+    background-size: 300px 200px;
+}
+
+.Education h2{
+    margin-top: 50px;
+}
+.styled-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+  
+.styled-table th,
+.styled-table td {
+    padding: 10px;
+    text-align: left;
+}
+  
+.styled-table th {
+    background-color: #f2f2f2;
+}
+  
+.styled-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+  
+.styled-table th:first-child,
+.styled-table td:first-child {
+    padding-left: 20px;
+}
+  
+.styled-table th:last-child,
+.styled-table td:last-child {
+    padding-right: 20px;
+}
+.Education h2{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.Education p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+.Future-Plans{
+    background-color: aqua;
+    background-size: 600px 200px;
+}
+
+.Future-Plans ul{
+    margin-top: 0;
+    margin-left: 100px;
+}
+
+.Future-Plans h2{
+    padding: 90px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.Future-Plans ul{
+    line-height: 50px;
+}
+
+.Target-img img{
+    width: 430px;
+    height: auto;
+    margin-left: 455px;
+}
+
+
+.Other-Informations{
+    background-color: #ccc;
+    background-size: 300px 200px;
+}
+
+.Other-Informations ul{
+    margin-left: 60px;
+    line-height: 35px;
+}
+
+.Other-Informations u{
+    padding-top: 60px;
+    margin-left: 70px;
+    font-size: larger;
+}
+
+.Other-Informations p{
+    line-height: 45px;
+}
+
+.Other-Informations h2{
+    padding-top: 90px;
+    text-align: center;
+}
+.Other-Informations h1{
+    background-color: #ccc;
+    padding-top: 90px;
+    text-align: center;
+}
+.Tall{
+    position: absolute;
+    top: 230px;
+    left: 850px;
+}
+
+.feedback{
+    background-color: #ccc;
+    background-size: 600px 200px;
+}
+
+.myForm{
+    position: static;
+    margin-inline-start: 20px;
+    margin-top: 10px;
+    margin-left: 230px;
+    background-color: #ffffff;
+    border: 10px solid #ccc;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    height: auto; 
+}
+
+.form h2{
+    padding-top: 90px;
+    text-align: center;
+}
+
+.form textarea{
+    height: 130px;
+    width: 700px;
+    resize: none;
+}
+
+.form button{
+    justify-content: center;
+}
+
+
+.bmi-calc /*container*/ {
+    text-align: center;
+    /* background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.bmi-calc input-container {
+    margin-bottom: 10px;
+}
+
+.bmi-calc h2{
+    margin-top: 0%;
+    padding: 10px;
+}
+
+.bmi-calc h1{
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.bmi-calc h4{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.bmi-calc label {
+    font-weight: bold;
+}
+
+.bmi-calc input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100px;
+}
+
+.bmi-calc button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bmi-calc button:hover {
+    background-color: #0056b3;
+}
+
+.bmi-calc #result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.course-selection{
+    position: static;
+    margin-inline-start: 20px;
+    margin-top: 10px;
+    margin-left: 230px;
+    background-color: #e1dfec;
+    border: 10px solid #fdcbcb;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    height: auto; 
+}
+
+.course-selection input{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.course-selection h1{
+    text-align: center;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    top: 3550px;
+}
+
